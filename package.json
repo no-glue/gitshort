@@ -5,7 +5,7 @@
     },
     "preferGlobal": "true",
     "bin": {"gitpull": "gitpull.js"},
-    "name": "gitpull",
+    "name": "gitpullshell",
     "main": "gitpull.js",
     "version": "0.0.1",
     "description": "Does a git pull with rebase",
