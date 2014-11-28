@@ -1,4 +1,9 @@
 {
-  "name": "gitpull",
-  "main": "gitpull.js"
+    "preferGlobal": "true",
+    "bin": {"gitpull": "gitpull.js"},
+    "name": "gitpull",
+    "main": "gitpull.js",
+    "version": "0.0.1",
+    "description": "Does a git pull with rebase",
+    "keywords": ["git", "pull", "rebase", "branch", "remote"]
 }
