@@ -6,6 +6,6 @@ or
 gitpull abranch aremote
 ## Install
 npm install gitpullshell -g    
-or    
+## Alternate install
 git clone    
 npm link
