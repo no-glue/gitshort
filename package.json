@@ -7,7 +7,7 @@
     "bin": {"gitb": "gitb.js"},
     "name": "gitb",
     "main": "gitb.js",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Does git checkout -b abranch",
     "keywords": ["git", "checkout", "branch"]
 }
