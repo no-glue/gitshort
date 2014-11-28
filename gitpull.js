@@ -8,10 +8,11 @@ var puts = (function(sys) {
 })(sys);
 var myArgs = process.argv.slice(2);
 var len = myArgs.length;
-var branch = "nothing";
+var branch = "master";
 var origin = "origin";
 //
-if(len === 1) {
+if(len === 0) {}
+else if(len === 1) {
     branch = myArgs.shift();
 } else if (len === 2){
     branch = myArgs.shift();
