@@ -5,4 +5,7 @@ gitpull abranch (assumes origin remote)
 or    
 gitpull abranch aremote
 ## Install
-npm install gitpullshell -g
+npm install gitpullshell -g    
+or    
+git clone    
+npm link
