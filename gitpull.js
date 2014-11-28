@@ -1,0 +1,25 @@
+var sys = require("sys");
+var exec = require("child_process").exec;
+var puts = (function(sys) {
+    return function(error, stdout, stderr) {
+        sys.puts(stdout);
+    };
+})(sys);
+var myArgs = process.argv.slice(2);
+var len = myArgs.length;
+var branch = "nothing";
+var origin = "origin";
+//
+if(len === 1) {
+    branch = myArgs.shift();
+    console.log("1");
+} else if (len === 2){
+    branch = myArgs.shift();
+    origin = myArgs.shift();
+    console.log("2");
+} else {
+    console.log("use as gitpull branch [remote], e.g. gitpull master origin");
+    return;
+}
+exec("git pull --rebase " + origin + " " + branch, puts);
+console.log("something");
