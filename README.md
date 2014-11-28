@@ -4,3 +4,5 @@ with
 gitpull abranch (assumes origin remote)    
 or    
 gitpull abranch aremote
+## Install
+npm install gitpullshell -g
