@@ -18,7 +18,7 @@ else if(len === 1) {
     branch = myArgs.shift();
     origin = myArgs.shift();
 } else {
-    console.log("use as gitpull branch [remote], e.g. gitpull master origin");
+    console.log("use as gitpush [branch] [remote]");
     return;
 }
 exec("git push " + origin + " " + branch, puts);
