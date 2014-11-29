@@ -13,7 +13,7 @@ var branch = "nothing";
 if(len === 1) {
     branch = myArgs.shift();
 } else {
-    console.log("use as gitb abranch");
+    console.log("use as gitbd abranch");
     return;
 }
-exec("git branch -b " + branch, puts);
+exec("git branch -d " + branch, puts);
