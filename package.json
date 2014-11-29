@@ -1,0 +1,13 @@
+{
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/no-glue/gitpush"
+    },
+    "preferGlobal": "true",
+    "bin": {"gitpush": "gitpush.js"},
+    "name": "gitpush",
+    "main": "gitpush.js",
+    "version": "0.0.1",
+    "description": "Does a git push",
+    "keywords": ["git", "pull", "rebase", "branch", "remote"]
+}
