@@ -2,7 +2,7 @@
 Does git push aremote abranch    
 with    
 gitpush (assumer origin master)    
-or
+or    
 gitpush abranch (assumes origin remote)    
 or    
 gitpush abranch aremote
