@@ -1,0 +1,13 @@
+{
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/no-glue/gitbm"
+    },
+    "preferGlobal": "true",
+    "bin": {"gitbm": "gitbm.js"},
+    "name": "gitbm",
+    "main": "gitbm.js",
+    "version": "0.0.2",
+    "description": "Does git checkout abranch",
+    "keywords": ["git", "checkout", "branch"]
+}
