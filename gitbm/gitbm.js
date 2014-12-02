@@ -10,7 +10,8 @@ var myArgs = process.argv.slice(2);
 var len = myArgs.length;
 var branch = "master";
 //
-if(len === 1) {
+if(len === 0) {}
+else if(len === 1) {
     branch = myArgs.shift();
 } else {
     console.log("use as gitbm abranch");
